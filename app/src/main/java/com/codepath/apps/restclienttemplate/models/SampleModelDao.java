@@ -20,5 +20,8 @@ public interface SampleModelDao {
     List<SampleModel> recentItems();
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insertModel(SampleModel... sampleModels);
+    void insertModel(Tweet... tweets);
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    void insertModel(User... users);
 }

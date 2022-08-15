@@ -12,8 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_margin="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
         android:onClick="loginToRest"
-        android:text="LOGIN" />
+        android:text="LOGIN"
+        tools:visibility="visible" />
 
 </RelativeLayout>
